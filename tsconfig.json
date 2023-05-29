@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"ignoreDeprecations": "5.0",
+		"module": "ESNext",
+		"target": "es2016",
+		"lib": ["DOM", "ESNext"],
+		"strict": true,
+		"jsx": "preserve",
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"noUnusedLocals": true,
+		"strictNullChecks": true,
+		"allowJs": true,
+		"forceConsistentCasingInFileNames": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"types": ["vite/client", "node"],
+		"paths": {
+			"~/*": ["src/*"]
+		}
+	},
+	"exclude": ["dist", "node_modules"],
+	"include": ["./src", "global.d.ts", "./src/types/*.d.ts"]
+}
